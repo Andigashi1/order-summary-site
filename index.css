@@ -79,7 +79,7 @@ h2 {
 }
 
 .buttons > * {
-    padding: 1em 0;
+    padding: .6em 0;
     border: 0;
     font-weight: 700;
 }
@@ -112,9 +112,5 @@ h2 {
 
     .container {
         max-width: 26rem;
-    }
-
-    .buttons > * {
-        padding: .6em 0;
     }
 }
