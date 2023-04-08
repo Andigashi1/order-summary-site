@@ -10,8 +10,10 @@ body {
     padding: 0;
     text-align: center;
     min-height: 100svh;
-    background: url(images/pattern-background-mobile.svg) #E1E9Ff;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-mobile.svg');
     background-repeat: no-repeat;
+    background-size: contain;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -111,7 +113,10 @@ h2 {
 
 @media (min-width: 35em) {
     body {
-        background: url(images/pattern-background-desktop.svg) hsl(225, 100%, 98%) no-repeat;
+        background-color: hsl(225, 100%, 94%);
+        background-image: url('images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
     } 
 
     .container {
