@@ -10,7 +10,8 @@ body {
     padding: 0;
     text-align: center;
     min-height: 100svh;
-    background-color: hsl(225, 100%, 94%);
+    background: url(images/pattern-background-mobile.svg) #E1E9Ff;
+    background-repeat: no-repeat;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -109,6 +110,9 @@ h2 {
 }
 
 @media (min-width: 35em) {
+    body {
+        background: url(images/pattern-background-desktop.svg) hsl(225, 100%, 98%) no-repeat;
+    } 
 
     .container {
         max-width: 26rem;
